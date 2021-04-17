@@ -1,0 +1,11 @@
+/****** Script for SelectTopNRows command from SSMS  ******/
+SELECT [RowNumber]
+      ,[InvoiceNo]
+      ,[StockCode]
+      ,[Description]
+      ,[Quantity]
+      ,[InvoiceDate]
+      ,[UnitPrice]
+      ,[CustomerID]
+      ,[Country]
+  FROM [DSTraining].[dbo].[Raw_OnlineRetailThesis_20210121]
